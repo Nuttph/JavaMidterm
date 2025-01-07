@@ -1,4 +1,4 @@
-# Java Midterm Project 📝✨
+# Java Midterm 📝✨
 
 ## Overview 💻🌟
 
