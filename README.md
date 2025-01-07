@@ -1,45 +1,51 @@
-# Java Midterm Project
+# Java Midterm Project 📝✨
 
-## Overview
+## Overview 💻🌟
 
 This project demonstrates key concepts of Object-Oriented Programming (OOP) in Java, focusing on classes, objects, constructors, and inheritance. The project includes multiple examples of single, multilevel, and hierarchical inheritance, as well as the use of access modifiers (`private`, `public`, and `protected`). The main classes include `Person` and `Main`, showcasing encapsulation with getter and setter methods, and demonstrating casting concepts.
 
-## Concepts Covered
+---
 
-### 1. **Class & Object**
+## Concepts Covered 📚🔍
+
+### 1. **Class & Object** 🏫
    - A class defines a blueprint for creating objects (instances), and objects represent individual entities.
    - Example: `Person` class represents a person with attributes like name and age.
 
-### 2. **Constructor**
+### 2. **Constructor** 🛠️
    - A constructor is a special method used to initialize objects.
    - Example: Constructor used in `Person` to initialize name and age.
 
-### 3. **Getter & Setter Methods**
+### 3. **Getter & Setter Methods** 🔑
    - Encapsulation is achieved using getter and setter methods to access or modify private fields.
    - Example: `getName()` and `setName()` methods for the `Person` class.
 
-### 4. **Casting Concept**
+### 4. **Casting Concept** 🔄
    - Casting allows you to convert one data type to another.
    - Example: Casting between different types in inheritance.
 
-### 5. **Inheritance**
+### 5. **Inheritance** 🌳
    - **Single Inheritance**: A class inherits from one superclass.
    - **Multilevel Inheritance**: A class inherits from another class, which itself is a subclass of another class.
    - **Hierarchical Inheritance**: Multiple classes inherit from a single superclass.
    - Example: A `Student` class inheriting from `Person`, and `Employee` inheriting from `Person`.
 
-### 6. **Access Modifiers**
+### 6. **Access Modifiers** 🚪
    - **Private**: Restricts access to the same class only.
    - **Public**: Makes members accessible to all classes.
    - **Protected**: Allows access within the same package or subclasses.
    - Example: `private int age`, `public String name`, `protected String address`.
 
-## Files Included
+---
+
+## Files Included 📂
 
 - `Person.java`: Contains the `Person` class with private attributes, constructors, getter and setter methods.
 - `Main.java`: Demonstrates the usage of classes, objects, inheritance, and casting.
 
-## Example Code
+---
+
+## Example Code 🖥️💡
 
 ```java
 // Person.java
