@@ -1,51 +1,51 @@
-# Java Midterm 📝✨
+# โครงการ Midterm Java 📝✨
 
-## Overview 💻🌟
+## ภาพรวม 💻🌟
 
-This project demonstrates key concepts of Object-Oriented Programming (OOP) in Java, focusing on classes, objects, constructors, and inheritance. The project includes multiple examples of single, multilevel, and hierarchical inheritance, as well as the use of access modifiers (`private`, `public`, and `protected`). The main classes include `Person` and `Main`, showcasing encapsulation with getter and setter methods, and demonstrating casting concepts.
+โครงการนี้แสดงแนวคิดหลักของการเขียนโปรแกรมเชิงวัตถุ (OOP) ในภาษา Java โดยมุ่งเน้นที่การใช้คลาส, อ็อบเจ็กต์, คอนสตรัคเตอร์ และการสืบทอด (Inheritance) โครงการนี้รวมตัวอย่างการใช้การสืบทอดแบบเดียว, แบบหลายระดับ และแบบเชิงลำดับ รวมถึงการใช้ตัวแก้ไขการเข้าถึง (`private`, `public`, และ `protected`) คลาสหลักในโครงการประกอบด้วย `Person` และ `Main` ที่แสดงการห่อหุ้มข้อมูล (encapsulation) ด้วย getter และ setter methods รวมถึงการใช้แนวคิดการแคสติ้ง (casting)
 
 ---
 
-## Concepts Covered 📚🔍
+## แนวคิดที่ครอบคลุม 📚🔍
 
 ### 1. **Class & Object** 🏫
-   - A class defines a blueprint for creating objects (instances), and objects represent individual entities.
-   - Example: `Person` class represents a person with attributes like name and age.
+   - คลาสคือแม่แบบที่ใช้ในการสร้างอ็อบเจ็กต์ (อินสแตนซ์) และอ็อบเจ็กต์คือสิ่งที่แสดงถึงข้อมูลที่เป็นตัวตนจริง
+   - ตัวอย่าง: คลาส `Person` แสดงถึงคนที่มีข้อมูล เช่น ชื่อและอายุ
 
 ### 2. **Constructor** 🛠️
-   - A constructor is a special method used to initialize objects.
-   - Example: Constructor used in `Person` to initialize name and age.
+   - คอนสตรัคเตอร์คือเมธอดพิเศษที่ใช้ในการกำหนดค่าเริ่มต้นให้กับอ็อบเจ็กต์
+   - ตัวอย่าง: คอนสตรัคเตอร์ที่ใช้ในคลาส `Person` เพื่อกำหนดค่าเริ่มต้นของชื่อและอายุ
 
 ### 3. **Getter & Setter Methods** 🔑
-   - Encapsulation is achieved using getter and setter methods to access or modify private fields.
-   - Example: `getName()` and `setName()` methods for the `Person` class.
+   - การห่อหุ้มข้อมูล (encapsulation) จะทำได้โดยการใช้ getter และ setter methods เพื่อเข้าถึงหรือแก้ไขฟิลด์ที่เป็น `private`
+   - ตัวอย่าง: เมธอด `getName()` และ `setName()` ในคลาส `Person`
 
-### 4. **Casting Concept** 🔄
-   - Casting allows you to convert one data type to another.
-   - Example: Casting between different types in inheritance.
+### 4. **Casting concept** 🔄
+   - การแคสติ้งช่วยให้สามารถแปลงข้อมูลจากประเภทหนึ่งไปยังอีกประเภทหนึ่ง
+   - ตัวอย่าง: การแคสติ้งระหว่างประเภทต่างๆ ในการสืบทอด
 
 ### 5. **Inheritance** 🌳
-   - **Single Inheritance**: A class inherits from one superclass.
-   - **Multilevel Inheritance**: A class inherits from another class, which itself is a subclass of another class.
-   - **Hierarchical Inheritance**: Multiple classes inherit from a single superclass.
-   - Example: A `Student` class inheriting from `Person`, and `Employee` inheriting from `Person`.
+   - **Single Inheritance**: คลาสสามารถสืบทอดจากคลาสพ่อแม่เพียงคลาสเดียว
+   - **Multilevel Inheritance**: คลาสหนึ่งสามารถสืบทอดจากคลาสอีกตัวที่เป็นลูกของคลาสพ่อแม่
+   - **Hierarchical Inheritance**: หลายคลาสสามารถสืบทอดจากคลาสพ่อแม่เดียวกัน
+   - ตัวอย่าง: คลาส `Student` สืบทอดจากคลาส `Person` และคลาส `Employee` สืบทอดจากคลาส `Person`
 
 ### 6. **Access Modifiers** 🚪
-   - **Private**: Restricts access to the same class only.
-   - **Public**: Makes members accessible to all classes.
-   - **Protected**: Allows access within the same package or subclasses.
-   - Example: `private int age`, `public String name`, `protected String address`.
+   - **Private**: จำกัดการเข้าถึงเฉพาะภายในคลาสเดียวกัน
+   - **Public**: สามารถเข้าถึงได้จากคลาสใดก็ได้
+   - **Protected**: สามารถเข้าถึงได้ในแพ็คเกจเดียวกันหรือจากคลาสลูก
+   - ตัวอย่าง: `private int age`, `public String name`, `protected String address`
 
 ---
 
-## Files Included 📂
+## ไฟล์ที่รวมอยู่ 📂
 
-- `Person.java`: Contains the `Person` class with private attributes, constructors, getter and setter methods.
-- `Main.java`: Demonstrates the usage of classes, objects, inheritance, and casting.
+- `Person.java`: ประกอบด้วยคลาส `Person` ที่มีฟิลด์เป็น `private`, คอนสตรัคเตอร์, getter และ setter methods
+- `Main.java`: แสดงการใช้งานคลาส, อ็อบเจ็กต์, การสืบทอด และการแคสติ้ง
 
 ---
 
-## Example Code 🖥️💡
+## ตัวอย่างโค้ด 🖥️💡
 
 ```java
 // Person.java
@@ -53,13 +53,13 @@ public class Person {
     private String name;
     private int age;
 
-    // Constructor
+    // คอนสตรัคเตอร์
     public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    // Getter and Setter methods
+    // Getter และ Setter methods
     public String getName() {
         return name;
     }
@@ -131,18 +131,18 @@ public class Employee extends Person {
 // Main.java
 public class Main {
     public static void main(String[] args) {
-        // Creating objects
+        // สร้างอ็อบเจ็กต์
         Person person = new Person("John Doe", 30);
         Student student = new Student("Jane Smith", 20, "ABC University");
         Employee employee = new Employee("Alice Johnson", 35, "XYZ Corporation");
 
-        // Displaying information
+        // แสดงข้อมูล
         System.out.println(person);
         System.out.println(student);
         System.out.println(employee);
 
-        // Casting example
-        Person personFromStudent = student; // Casting from Student to Person
+        // ตัวอย่างการแคสติ้ง
+        Person personFromStudent = student; // การแคสจาก Student ไปเป็น Person
         System.out.println("Casted Person: " + personFromStudent);
     }
 }
