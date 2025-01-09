@@ -14,6 +14,7 @@ class Person{ // OOP
         this.name = n;
         this.job = j;
         this.age = a;
+
     }
 
     // getter
@@ -40,5 +41,6 @@ public class FirstConcept  {
        p2.getInfo(); //getter
        p2.setInfo("FFF","pilot",1); //setter
        p2.getInfo();
+
     }
 }
