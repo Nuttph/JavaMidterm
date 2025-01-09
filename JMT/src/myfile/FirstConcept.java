@@ -37,8 +37,8 @@ public class FirstConcept  {
         Person p1 = new Person("Nuttaphon","Doctor",20);
         Person p2 = new Person("ABC","DEF",44);
         //Datatype + name of variable
-       p2.getInfo();
-       p2.setInfo("FFF","pilot",1);
+       p2.getInfo(); //getter
+       p2.setInfo("FFF","pilot",1); //setter
        p2.getInfo();
     }
 }
